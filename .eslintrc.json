@@ -21,12 +21,13 @@
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended",
     "plugin:prettier/recommended",
     "plugin:import/react",
     "airbnb-base",
     "prettier"
   ],
-  "plugins": ["react", "import", "prettier"],
+  "plugins": ["react", "import", "prettier", "jsx-a11y"],
   "settings": {
     "react": {
       "version": "detect"
